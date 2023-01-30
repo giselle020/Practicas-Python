@@ -1,0 +1,5 @@
+#Leyendo un archivo en Python
+archivo = open('primer_archivo.txt', 'r+')
+contenido = archivo.read()
+print("Datos del archivo: ", contenido)
+archivo.close()

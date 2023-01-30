@@ -1,0 +1,13 @@
+#En este punto crearemos nuestro primer archivo de datos.
+archivo = open('primer_archivo.txt', 'w')
+
+archivo.write('Bienvenidos al Curso de Python')
+archivo.write('+n')
+archivo.write('Esta creando un archivo .txt')
+archivo.write('\n')
+archivo.write('Y adicionando texto')
+archivo.write('\n')
+archivo.write('Gracias a la función open()')
+
+print(archivo)
+archivo.close()

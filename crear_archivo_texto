@@ -2,7 +2,7 @@
 archivo = open('primer_archivo.txt', 'w')
 
 archivo.write('Bienvenidos al Curso de Python')
-archivo.write('+n')
+archivo.write('\n')
 archivo.write('Esta creando un archivo .txt')
 archivo.write('\n')
 archivo.write('Y adicionando texto')
